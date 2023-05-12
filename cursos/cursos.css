@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    padding: 20px;
+}
+
+/* estilos header */
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5196BF;
+}
+.imageContainer img{
+    width: 140px;
+    margin-left: 10px;
+}
+.listHeader{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    list-style: none;
+}
+.listHeader li{
+    width: 60px;
+}
+.list__header__icon {
+    width: 30px;
+}
+
+/* seccion Cuerpo de la pagina */
+
+/* seccion descripccion de la pagina de cursos */
+.container__description{
+    background-image: url("../assets/trabajo-en-equipo.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* seccion de la pagina con los diferentes cursos */
+.container__cursos {
+    display: flex;
+    justify-content: space-between;
+}
+.container__cursos__list  ul{
+    display: grid;
+    margin: 0;
+    padding: 20px;
+}
+.container__cursos__item {
+    display: flex;
+}
+.container__cursos__list img {
+    width: 100px;
+}
+
+/* seccion footer */
+footer{
+    background-color: #5196BF;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+.cont__image{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 150px;
+}
