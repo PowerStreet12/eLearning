@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 1</title>
+    <title>Modulo 2</title>
     <link rel="stylesheet" href="../css/modulo.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
@@ -38,7 +38,7 @@
         <!-- seccion titulo y descripccion -->
         <section class="section__title">
             <div class="title">
-                <h1>Modulo 1</h1>
+                <h1>Modulo 2</h1>
             </div>
             <hr class="line__I">
             <div class="description">
@@ -53,13 +53,19 @@
             <div class="content__grid">
                 <div class="content__item__I">
                     <button class="button">
-                        <h2>1.1 SERIES</h2>
+                        <h2>2.1 LISTAS DE PRECIOS</h2>
                         <img src="../assets/book.png" style="width: 100px;">
                     </button>
                 </div>
                 <div class="content__item__II">
                     <button class="button">
-                        <h2>1.3 VENDEDORES</h2>
+                        <h2>2.3 MANEJO DE CREDITOS</h2>
+                        <img src="../assets/book.png" style="width: 100px;">
+                    </button>
+                </div>
+                <div class="content__item__V">
+                    <button class="button">
+                        <h2>2.5 MANEJO DE INVENTARIOS</h2>
                         <img src="../assets/book.png" style="width: 100px;">
                     </button>
                 </div>
@@ -67,13 +73,19 @@
             <div class="content__grid">
                 <div class="content__item__III">
                     <button class="button">
-                        <h2>1.2 DEPOSITOS</h2>
+                        <h2>2.2 MODIFICAR LISTA DE PRECIOS</h2>
                         <img src="../assets/book.png" style="width: 100px;">
                     </button>
                 </div>
                 <div class="content__item__IV">
                     <button class="button">
-                        <h2>1.4 MODIFICAR VENDEDORES</h2>
+                        <h2>2.4 LIBROS DE RUTA</h2>
+                        <img src="../assets/book.png" style="width: 100px;">
+                    </button>
+                </div>
+                <div class="content__item__VI">
+                    <button class="button">
+                        <h2>2.6 POLITICAS DE VENTA</h2>
                         <img src="../assets/book.png" style="width: 100px;">
                     </button>
                 </div>

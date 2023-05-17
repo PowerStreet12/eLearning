@@ -58,7 +58,7 @@
                             <img src="../assets/trabajo-en-equipo.jpg" alt="">
                         </div>
                         <div class="item__button">
-                            <a href="">
+                            <a href="../Modulo2/modulo1.php">
                                 <button>
                                     <h2>Modulo 1</h2>
                                 </button>
@@ -84,7 +84,7 @@
                     <div class="container__cursos__list">
                         <div class="container__cursos__item__II">
                             <div class="item__button__II">
-                                <a href="">
+                                <a href="../Modulo3/modulo2.php">
                                     <button>
                                         <h2>Modulo 2</h2>
                                     </button>
