@@ -11,28 +11,12 @@
 
 <body>
     <!-- seccion header -->
-    <div class="">
-        <header class="header">
-            <div class="imageContainer">
-                <img src="../assets/Recurso 54.png" alt="">
-            </div>
-            <div>
-                <ul class="listHeader">
-                    <li>
-                        <a href=""><img class="list__header__icon" src="../assets/home.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img class="list__header__icon" src="../assets/perfil.png" alt=""></a>
-                    </li>
-                    <li>
-                        <span onclick="openNav()"><img class="list__header__icon" src="../assets/menu.png"
-                                alt=""></span>
-                    </li>
-                </ul>
-            </div>
-        </header>
-    </div>
+    <?php
 
+    include('../header/header.php');
+    
+    ?>
+    
     <!-- seccion menu sidenav -->
     <section>
         <div id="mySidenav" class="sidenav">
