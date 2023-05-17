@@ -17,24 +17,43 @@
                 <img src="../assets/Recurso 54.png" alt="">
             </div>
             <div>
-                <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img style="width: 30px;" class="list__header__icon" src="../assets/home.png"
-                                alt=""></a></li>
-                    <li><a href=""><img style="width: 30px;" class="list__header__icon" src="../assets/perfil.png"
-                                alt=""></a></li>
-                    <li><span onclick="openNav()"><img style="width: 30px;" class="list__header__icon"
-                                src="../assets/menu.png" alt=""></span>
+                <ul class="listHeader">
+                    <li>
+                        <a href=""><img class="list__header__icon" src="../assets/home.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img class="list__header__icon" src="../assets/perfil.png" alt=""></a>
+                    </li>
+                    <li>
+                        <span onclick="openNav()"><img class="list__header__icon" src="../assets/menu.png"
+                                alt=""></span>
                     </li>
                 </ul>
             </div>
         </header>
     </div>
 
+    <!-- seccion menu sidenav -->
+    <section>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">MENU</a>
+            <a href="../home/index.php">POWER STREET</a>
+            <a href="#">AREAS</a>
+            <a href="#">TESTING</a>
+            <a href="#">APLICACIONES POWER STREET</a>
+            <a href="../cursos/cursos.php">CAPACITACION</a>
+        </div>
+
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+    </section>
+
     <!-- seccion descripccion de la pagina de cursos -->
     <div class="container">
         <div class="container__description">
             <div class="container__description__title">
-                <h1>Cursos</h1>
+                <h1>Modulos</h1>
             </div>
             <div class="container__description__text">
                 <p>Aprenderas mas de Enterprice en estos cursos, hechos para ti en los cuales tendras que leer </p>
@@ -50,22 +69,28 @@
         <div class="container__cursos">
             <div class="container__cursos__list">
                 <ul>
-                    <div class="container__cursos__item">
+                    <div class="container__cursos__item__I">
                         <div class="item__img">
                             <img src="../assets/trabajo-en-equipo.jpg" alt="">
                         </div>
                         <div class="item__button">
-                            <a href=""><button>Curso 1</button></a>
+                            <a href="">
+                                <button>
+                                    <h2>Modulo 1</h2>
+                                </button>
+                            </a>
                         </div>
                     </div>
-                    <div class="container__cursos__item">
+                    <div class="container__cursos__item__III">
                         <div class="item__img">
                             <img src="../assets/trabajo-en-equipo.jpg" alt="">
                         </div>
-                        <div>
-                            <button class="item__button">
-                                <a href="">Curso 2</a>
-                            </button>
+                        <div class="item__button">
+                            <a href="">
+                                <button>
+                                    <h2>Modulo 3</h2>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </ul>
@@ -73,25 +98,31 @@
             <div class="container__cursos__list">
                 <ul>
                     <div class="container__cursos__list">
-                        <div class="container__cursos__item">
+                        <div class="container__cursos__item__II">
+                            <div class="item__button__II">
+                                <a href="">
+                                    <button>
+                                        <h2>Modulo 2</h2>
+                                    </button>
+                                </a>
+                            </div>
                             <div class="item__img">
                                 <img src="../assets/trabajo-en-equipo.jpg" alt="">
                             </div>
-                            <div>
-                                <button class="item__button">
-                                    <a href="">Curso 3</a>
-                                </button>
-                            </div>
+
                         </div>
-                        <div class="container__cursos__item">
+                        <div class="container__cursos__item__IV">
+                            <div class="item__button__II">
+                                <a href="">
+                                    <button>
+                                        <h2>Modulo 4</h2>
+                                    </button>
+                                </a>
+                            </div>
                             <div class="item__img">
                                 <img src="../assets/trabajo-en-equipo.jpg" alt="">
                             </div>
-                            <div>
-                                <button class="item__button">
-                                    <a href="">Curso 4</a>
-                                </button>
-                            </div>
+
                         </div>
                     </div>
                 </ul>
@@ -107,6 +138,21 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+
+        }
+    </script>
 </body>
 
 </html>
