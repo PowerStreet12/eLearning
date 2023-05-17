@@ -42,6 +42,9 @@ body{
     height: 300px;
     background-size: 100%;
     background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* seccion de la pagina con los diferentes cursos */
@@ -58,7 +61,17 @@ body{
     display: flex;
 }
 .container__cursos__list img {
-    width: 100px;
+    width: 111px;
+    border-radius: 30% 30% 30% 30%;
+    height: 223px;
+}
+.item__button button{
+    height: 75px;
+    width: 162px;
+    background-color: #5196BF;
+    /* text-decoration: none; */
+    border: none;
+    border-radius: 0% 42% 42% 0%;
 }
 
 /* seccion footer */

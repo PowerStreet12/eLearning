@@ -51,12 +51,22 @@
             <div class="container__cursos__list">
                 <ul>
                     <div class="container__cursos__item">
-                        <img src="../assets/opop.png" alt="">
-                        <a href=""><li>Curso 1</li></a>
+                        <div class="item__img">
+                            <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                        </div>
+                        <div class="item__button">
+                            <a href=""><button>Curso 1</button></a>
+                        </div>
                     </div>
                     <div class="container__cursos__item">
-                        <img src="../assets/opop.png" alt="">
-                        <a href=""><li>Curso 2</li></a>
+                        <div class="item__img">
+                            <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                        </div>
+                        <div>
+                            <button class="item__button">
+                                <a href="">Curso 2</a>
+                            </button>
+                        </div>
                     </div>
                 </ul>
             </div>
@@ -64,12 +74,24 @@
                 <ul>
                     <div class="container__cursos__list">
                         <div class="container__cursos__item">
-                            <img src="../assets/opop.png" alt="">
-                            <a href=""><li>Curso 3</li></a>
+                            <div class="item__img">
+                                <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                            </div>
+                            <div>
+                                <button class="item__button">
+                                    <a href="">Curso 3</a>
+                                </button>
+                            </div>
                         </div>
                         <div class="container__cursos__item">
-                            <img src="../assets/opop.png" alt="">
-                            <a href=""><li>Curso 4</li></a>
+                            <div class="item__img">
+                                <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                            </div>
+                            <div>
+                                <button class="item__button">
+                                    <a href="">Curso 4</a>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </ul>
