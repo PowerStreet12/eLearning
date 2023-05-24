@@ -50,7 +50,7 @@
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>Demostracion</h1>
+                <h1>1.1.1 Demostracion</h1>
             </div>
             <div class="container__iframe">
                 <center>
@@ -60,7 +60,7 @@
         </div>
         <div class="container">
             <div class="container__subtitle">
-                <a href="">
+                <a href="./homeModulo2SeriesFormacion.php">
                     <button>Actividad</button>
                 </a>
             </div>
