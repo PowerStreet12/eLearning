@@ -52,32 +52,39 @@
         <section class="content">
             <div class="content__grid">
                 <div class="content__item__I">
-                    <button class="button">
-                        <a href="./homeModulo2SeriesDemostracion.php">
+                    <a href="./homeModulo2SeriesDemostracion.php">
+                        <button class="button">
                             <h2>1.1 SERIES</h2>
                             <img src="../assets/book.png" style="width: 100px;">
-                        </a>
-                    </button>
+                        </button>
+                    </a>
+
                 </div>
                 <div class="content__item__II">
-                    <button class="button">
-                        <h2>1.3 VENDEDORES</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="./homeModulo2VendedoresDemostracion.php">
+                        <button class="button">
+                            <h2>1.3 VENDEDORES</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="content__grid">
                 <div class="content__item__III">
-                    <button class="button">
-                        <h2>1.2 DEPOSITOS</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="./homeModulo2DepositosDemostracion.php">
+                        <button class="button">
+                            <h2>1.2 DEPOSITOS</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
                 <div class="content__item__IV">
-                    <button class="button">
-                        <h2>1.4 MODIFICAR VENDEDORES</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="./homeModulo2ModificarVendedoresDemostracion.php">
+                        <button class="button">
+                            <h2>1.4 MODIFICAR VENDEDORES</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>

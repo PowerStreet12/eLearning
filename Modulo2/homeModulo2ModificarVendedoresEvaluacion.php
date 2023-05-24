@@ -1,32 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 2 - Series</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-    
-    
-  
-
+    <title>Modulo 1 - Modificar Vendedores</title>
+    <link rel="stylesheet" href="../css/temas.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
-<?php
+    <!-- seccion header -->
+    <div class="">
+        <header class="header">
+            <div class="imageContainer">
+                <img src="../assets/Recurso 54.png" alt="">
+            </div>
+            <div>
+                <ul style="list-style: none;" class="listHeader">
+                    <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
+                    <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/book.png"
+                                alt=""></span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
 
-include('../Menu/menuprincipal.php');
+    <!-- seccion Contenido de la pagina -->
+    <div class="main">
+        <div class="cantainer__I">
+            <div class="contaainer__image">
+                <img src="../assets/opop.png" style="width: 300px;">
+            </div>
+            <div class="contaainer__description">
+                <div class="contaainer__description__title">
+                    <h1>1.4 MODIFICAR VENDEDORES</h1>
+                </div>
+                <div class="contaainer__description__text">
+                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
+                        imprimir desde un dispositivo movil o pc</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__title">
+                <h1>1.4.3 Evaluacion</h1>
+            </div>
+            <div class="container__iframe">
+                <center>
+                    <iframe src="ModificarVendedoresEvaluacion/index.html" style=""></iframe>
+                </center>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__subtitle">
+                <a href="./modulo1.php">
+                    <button>Cursos</button>
+                </a>
+            </div>
+        </div>
+    </div>
 
-?>
-<center>
-    <br>
-        <h1>Modulo 2 - Modificar vendedores evaluacion</h1>
-        <br>
-            <iframe src="ModificarVendedoresEvaluacion/index.html" width=1090 height=660 ></iframe>
-</center>
-        
-   
-    
-    
+    <!-- SECCION FOOTER -->
+    <div>
+        <footer>
+            <div class="cont__image">
+                <img src="../assets/Recurso 54.png" alt="">
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

@@ -52,7 +52,7 @@
             </div>
             <div class="container__iframe">
                 <center>
-                    <iframe src="SeriesDemostracion/series.html" style=""></iframe>
+                    <iframe src="SeriesFormacion/index.html" style=""></iframe>
                 </center>
             </div>
         </div>
