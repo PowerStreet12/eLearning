@@ -52,42 +52,55 @@
         <section class="content">
             <div class="content__grid">
                 <div class="content__item__I">
-                    <button class="button">
-                        <h2>2.1 LISTAS DE PRECIOS</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="homeModulo3ListasdepreciosDemostracion.php">
+                        <button class="button">
+                            <h2>2.1 LISTAS DE PRECIOS</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
                 <div class="content__item__II">
-                    <button class="button">
-                        <h2>2.3 MANEJO DE CREDITOS</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="homeModulo3ManejodecreditosDemostracion.php">
+                        <button class="button">
+                            <h2>2.3 MANEJO DE CREDITOS</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
                 <div class="content__item__V">
-                    <button class="button">
-                        <h2>2.5 MANEJO DE INVENTARIOS</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="homeModulo3InventariosReportedeStockDemostracion.php">
+                        <button class="button">
+                            <h2>2.5 MANEJO DE INVENTARIOS</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
+
                 </div>
             </div>
             <div class="content__grid">
                 <div class="content__item__III">
-                    <button class="button">
-                        <h2>2.2 MODIFICAR LISTA DE PRECIOS</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="homeModulo3ModificarlistasdepreciosDemostracion.php">
+                        <button class="button">
+                            <h2>2.2 MODIFICAR LISTA DE PRECIOS</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
                 <div class="content__item__IV">
-                    <button class="button">
-                        <h2>2.4 LIBROS DE RUTA</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                    <a href="homeModulo3LibrosderutaDemostracion.php">
+                        <button class="button">
+                            <h2>2.4 LIBROS DE RUTA</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
+                    </a>
                 </div>
                 <div class="content__item__VI">
+                    <a href="homeModulo3PoliticasdeventaDemostracion.php">
                     <button class="button">
                         <h2>2.6 POLITICAS DE VENTA</h2>
                         <img src="../assets/book.png" style="width: 100px;">
                     </button>
+                    </a>
                 </div>
             </div>
         </section>
