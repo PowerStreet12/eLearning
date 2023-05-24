@@ -53,8 +53,10 @@
             <div class="content__grid">
                 <div class="content__item__I">
                     <button class="button">
-                        <h2>1.1 SERIES</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
+                        <a href="./homeModulo2SeriesDemostracion.php">
+                            <h2>1.1 SERIES</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </a>
                     </button>
                 </div>
                 <div class="content__item__II">
