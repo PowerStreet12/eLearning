@@ -1,24 +1,27 @@
-body{
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
 }
-.main{
+
+.main {
     padding: 20px;
 }
 
 /* estilos header */
-.header{
+.header {
     align-items: center;
     display: flex;
     justify-content: space-between;
     background-color: #5196BF;
 }
-.imageContainer img{
+
+.imageContainer img {
     width: 140px;
     margin-left: 10px;
 }
-.listHeader{
+
+.listHeader {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -27,17 +30,19 @@ body{
     height: 70px;
     list-style: none;
 }
-.listHeader li{
+
+.listHeader li {
     width: 60px;
 }
+
 .list__header__icon {
     width: 30px;
-} 
+}
 
 /* seccion Cuerpo de la pagina */
 
 /* seccion descripccion de la pagina de cursos */
-.container__description{
+.container__description {
     background-image: url("../assets/trabajo-en-equipo.jpg");
     width: 100%;
     height: 300px;
@@ -54,11 +59,13 @@ body{
     justify-content: space-between;
     /* color: white; */
 }
-.container__cursos__list  ul{
+
+.container__cursos__list ul {
     display: grid;
     margin: 0;
     padding: 20px;
 }
+
 .container__cursos__item {
     display: flex;
     align-items: center;
@@ -66,40 +73,51 @@ body{
     margin-top: 100px;
     /* margin-left: 100px; */
 }
-.container__cursos__item__I{
+
+.container__cursos__item__I {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
     margin-left: 100px;
+    /* background-image: url("../assets/trabajo-en-equipo.jpg"); */
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 30% 30% 30% 30%;
 }
-.container__cursos__item__II{
+
+.container__cursos__item__II {
     display: flex;
     align-items: center;
     margin-top: 127px;
     margin-right: 100px;
 }
-.container__cursos__item__III{
+
+.container__cursos__item__III {
     display: flex;
     align-items: center;
     /* margin-bottom: 50px; */
     margin-top: 50px;
     margin-left: 100px;
 }
-.container__cursos__item__IV{
+
+.container__cursos__item__IV {
     display: flex;
     align-items: center;
     margin-top: 131px;
 }
+
 .container__cursos__list img {
-    width: 111px;
+    width: 331px;
     border-radius: 30% 30% 30% 30%;
-    height: 223px;
+    height: 341px;
     /* box-shadow: 5px 5px black; */
     /* border: 1px solid; */
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     object-fit: cover;
 }
-.item__button button{
+
+.item__button button {
     height: 67px;
     width: 117px;
     background-color: #5196BF;
@@ -109,10 +127,12 @@ body{
     border: none;
     border-radius: 0% 42% 42% 0%;
 }
-.item__button h2{
+
+.item__button h2 {
     color: aliceblue;
 }
-.item__button__II button{
+
+.item__button__II button {
     height: 67px;
     width: 117px;
     background-color: #5196BF;
@@ -122,23 +142,26 @@ body{
     border: none;
     border-radius: 42% 0% 0% 42%;
 }
-.item__button__II h2{
+
+.item__button__II h2 {
     color: aliceblue;
 }
 
 /* seccion footer */
-footer{
+footer {
     background-color: #5196BF;
     display: flex;
     justify-content: center;
     height: 70px;
 }
-.cont__image{
+
+.cont__image {
     display: grid;
     justify-content: center;
     align-items: center;
 }
-footer img{
+
+footer img {
     width: 150px;
 }
 
@@ -146,20 +169,28 @@ footer img{
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
     /*background-color: #111;  Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -171,30 +202,35 @@ footer img{
     box-shadow: 5px 5px 1px #5196BF;
     display: block;
     transition: 0.3s;
-  }
+}
 
-  /* When you mouse over the navigation links, change their color */
+/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  /* #main {
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* #main {
     transition: margin-left .5s;
     padding: 20px;
   } */
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

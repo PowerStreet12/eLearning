@@ -14,9 +14,9 @@
     <?php
 
     include('../header/header.php');
-    
+
     ?>
-    
+
     <!-- seccion menu sidenav -->
     <section>
         <div id="mySidenav" class="sidenav">
@@ -52,32 +52,27 @@
     <div class="container">
         <div class="container__cursos">
             <div class="container__cursos__list">
-                <ul>
-                    <div class="container__cursos__item__I">
-                        <div class="item__img">
-                            <img src="../assets/trabajo-en-equipo.jpg" alt="">
-                        </div>
-                        <div class="item__button">
-                            <a href="../Modulo2/modulo1.php">
-                                <button>
-                                    <h2>Modulo 1</h2>
-                                </button>
-                            </a>
-                        </div>
+                <div class="container__cursos__item__I">
+                    <div class="item__img">
                     </div>
-                    <div class="container__cursos__item__III">
-                        <div class="item__img">
+                    <div class="item__button">
+                        <a href="../Modulo2/modulo1.php">
                             <img src="../assets/trabajo-en-equipo.jpg" alt="">
-                        </div>
-                        <div class="item__button">
-                            <a href="">
-                                <button>
-                                    <h2>Modulo 3</h2>
-                                </button>
-                            </a>
-                        </div>
+                        </a>
                     </div>
-                </ul>
+                </div>
+                <div class="container__cursos__item__III">
+                    <div class="item__img">
+                        <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                    </div>
+                    <div class="item__button">
+                        <a href="">
+                            <button>
+                                <h2>Modulo 3</h2>
+                            </button>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="container__cursos__list">
                 <ul>

@@ -98,7 +98,7 @@
                         <img src="assets/lista-de-precios.png" alt="">
                     </div>
 
-                    <p>Productos y listas de precios</p>
+                    <p>Productos y listas <br> de precios</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
@@ -112,7 +112,7 @@
                         <img src="assets/jefe.png" alt="">
                     </div>
 
-                    <p>-clientes con multiples sucursales</p>
+                    <p>-clientes con multiples <br> sucursales</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
@@ -136,21 +136,21 @@
                         <img src="assets/ventas.png" alt="">
                     </div>
 
-                    <p>Politicas de ventas por diferentes criterios</p>
+                    <p>Politicas de ventas por <br> diferentes criterios</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
                         <img src="assets/inventario.png" alt="">
                     </div>
 
-                    <p>Politicas de promocion y liquidacion de comisiones</p>
+                    <p>Politicas de promocion y <br> liquidacion de comisiones</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
                         <img src="assets/lista-de-precios.png" alt="">
                     </div>
 
-                    <p>Motivos de no venta, anulacion o devoluciones</p>
+                    <p>Motivos de no venta, <br> anulacion o devoluciones</p>
                 </div>
             </div>
         </div>
