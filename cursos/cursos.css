@@ -117,34 +117,23 @@ body {
     object-fit: cover;
 }
 
-.item__button button {
-    height: 67px;
-    width: 117px;
-    background-color: #5196BF;
-    cursor: pointer;
-    box-shadow: 0 6px #b7b6b6;
-    /* text-decoration: none; */
-    border: none;
-    border-radius: 0% 42% 42% 0%;
-}
-
-.item__button h2 {
+.item__button a {
+    font-family: 'Roboto', sans-serif;
     color: aliceblue;
+    text-decoration: none;
 }
 
-.item__button__II button {
-    height: 67px;
-    width: 117px;
-    background-color: #5196BF;
-    cursor: pointer;
-    box-shadow: 0 6px #b7b6b6;
-    /* text-decoration: none; */
-    border: none;
-    border-radius: 42% 0% 0% 42%;
-}
-
-.item__button__II h2 {
-    color: aliceblue;
+.item__button h1 {
+    background-image: url(../assets/trabajo-en-equipo.jpg);
+    width: 501px;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    font-size: 68px;
 }
 
 /* seccion footer */

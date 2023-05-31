@@ -53,23 +53,16 @@
         <div class="container__cursos">
             <div class="container__cursos__list">
                 <div class="container__cursos__item__I">
-                    <div class="item__img">
-                    </div>
                     <div class="item__button">
                         <a href="../Modulo2/modulo1.php">
-                            <img src="../assets/trabajo-en-equipo.jpg" alt="">
+                            <h1>Modulo 1</h1>
                         </a>
                     </div>
                 </div>
                 <div class="container__cursos__item__III">
-                    <div class="item__img">
-                        <img src="../assets/trabajo-en-equipo.jpg" alt="">
-                    </div>
                     <div class="item__button">
                         <a href="">
-                            <button>
-                                <h2>Modulo 3</h2>
-                            </button>
+                            <h1>Modulo 3</h1>
                         </a>
                     </div>
                 </div>
@@ -78,30 +71,18 @@
                 <ul>
                     <div class="container__cursos__list">
                         <div class="container__cursos__item__II">
-                            <div class="item__button__II">
+                            <div class="item__button">
                                 <a href="../Modulo3/modulo2.php">
-                                    <button>
-                                        <h2>Modulo 2</h2>
-                                    </button>
+                                    <h1>Modulo 2</h1>
                                 </a>
                             </div>
-                            <div class="item__img">
-                                <img src="../assets/trabajo-en-equipo.jpg" alt="">
-                            </div>
-
                         </div>
                         <div class="container__cursos__item__IV">
-                            <div class="item__button__II">
+                            <div class="item__button">
                                 <a href="">
-                                    <button>
-                                        <h2>Modulo 4</h2>
-                                    </button>
+                                    <h1>Modulo 4</h1>
                                 </a>
                             </div>
-                            <div class="item__img">
-                                <img src="../assets/trabajo-en-equipo.jpg" alt="">
-                            </div>
-
                         </div>
                     </div>
                 </ul>

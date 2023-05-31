@@ -20,12 +20,10 @@
             </div>
             <div>
                 <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img class="list__header__icon" src="assets/home.png"
-                                alt=""></a></li>
-                    <li><a href=""><img class="list__header__icon" src="assets/perfil.png"
-                                alt=""></a></li>
-                    <li><span onclick="openNav()"><img class="list__header__icon"
-                                src="../assets/book.png" alt=""></span>
+                    <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
+                    <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/book.png"
+                                alt=""></span>
                     </li>
                 </ul>
             </div>
@@ -50,7 +48,19 @@
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>1.1.1 Demostracion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>Para poder continuar con los siguientes Modulos,<br> Por favor da click en boton Terminar<br>
+                            al
+                            finalizar el video</p>
+                    </div>
+                </div>
+                <div class="container__instructios__title">
+                    <h1>1.1.1 Demostracion</h1>
+                </div>
             </div>
             <div class="container__iframe">
                 <center>
