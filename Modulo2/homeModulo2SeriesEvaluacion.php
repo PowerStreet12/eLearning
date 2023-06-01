@@ -41,14 +41,32 @@
                     <h1>1.1 SERIES</h1>
                 </div>
                 <div class="contaainer__description__text">
-                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
-                        imprimir desde un dispositivo movil o pc</p>
+                    <p>
+                        Que este manual sea material de apoyo a los usuarios<br>
+                        para conocer el procedimiento necesario de configuración<br>
+                        para que los usuarios puedan realizar las impresiones<br>
+                        de documentos necesarias desde sus dispositivos de trabajo.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>1.1.3 Evaluacion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>
+                            1.-Da clic en botón reproducir para empezar tu capacitación.<br>
+                            2.-Al terminar el video de capacitación, verás el botón<br>
+                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
+                            3.-Has clic en el botón <span>Cursos</span>.
+                        </p>
+                    </div>
+                </div>
+                <h1>1.1.3 Evaluación</h1>
             </div>
             <div class="container__iframe">
                 <center>

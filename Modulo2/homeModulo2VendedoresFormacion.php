@@ -44,14 +44,31 @@
                     <h1>1.3 Vendedores</h1>
                 </div>
                 <div class="contaainer__description__text">
-                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
-                        imprimir desde un dispositivo movil o pc</p>
+                    <p>
+                        Proporcionar las herramientas necesarias <br>
+                        para la configuración de un nuevo vendedor <br>
+                        para hacer más fácil la creación de los mismos.<br>
+                    </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>1.3.2 Formacion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>
+                            1.-Da clic en botón reproducir para empezar tu capacitación.<br>
+                            2.-Al terminar el video de capacitación, verás el botón<br>
+                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
+                            3.-Has clic en el botón <span>Evaluación</span>.
+                        </p>
+                    </div>
+                </div>
+                <h1>1.3.2 Formación</h1>
             </div>
             <div class="container__iframe">
                 <center>
@@ -62,7 +79,7 @@
         <div class="container">
             <div class="container__subtitle">
                 <a href="./homeModulo2VendedoresEvaluacion.php">
-                    <button>Evaluacion</button>
+                    <button>Evaluación</button>
                 </a>
             </div>
         </div>

@@ -40,14 +40,31 @@
                     <h1>1.4 MODIFICAR VENDEDORES</h1>
                 </div>
                 <div class="contaainer__description__text">
-                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
-                        imprimir desde un dispositivo movil o pc</p>
+                    <p>
+                        Proporcionar las herramientas necesarias <br>
+                        para la configuración de un nuevo vendedor <br>
+                        para hacer más fácil la creación y modificación de los mismos.<br>
+                    </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>1.4.1 Demostracion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>
+                            1.-Da clic en botón reproducir para empezar tu capacitación.<br>
+                            2.-Al terminar el video de capacitación, verás el botón<br>
+                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
+                            3.-Has clic en el botón <span>Formación</span>
+                        </p>
+                    </div>
+                </div>
+                <h1>1.4.1 Demostración</h1>
             </div>
             <div class="container__iframe">
                 <center>
@@ -58,7 +75,7 @@
         <div class="container">
             <div class="container__subtitle">
                 <a href="./homeModulo2ModificarVendedoresFormacion.php">
-                    <button>Formacion</button>
+                    <button>Formación</button>
                 </a>
             </div>
         </div>
