@@ -20,12 +20,9 @@
             </div>
             <div>
                 <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img class="list__header__icon" src="assets/home.png"
-                                alt=""></a></li>
-                    <li><a href=""><img class="list__header__icon" src="assets/perfil.png"
-                                alt=""></a></li>
-                    <li><span onclick="openNav()"><img class="list__header__icon"
-                                src="assets/menu.png" alt=""></span>
+                    <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
+                    <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="assets/menu.png" alt=""></span>
                     </li>
                 </ul>
             </div>
@@ -54,10 +51,12 @@
                     <h1 style="text-align: center; font-size: 40px; margin: 0;">PowerStreet</h1>
                 </div>
                 <div class="container__aboutUs__text">
-                    <p style="text-align: center; font-size: x-large; line-height: 40px;">Somos una empresa
-                        especializada en el desarrollo de soluciones integrales para la automatizacion
-                        de
-                        procesos comerciales para canales aldetalle, mayoristas autoservicios entre otros</p>
+                    <p>
+                        Somos una empresa especializada en el desarrollo<br>
+                        de soluciones integrales para la automatización<br>
+                        de procesos comerciales para canales al detalle,<br>
+                        mayoristas autoservicios entre otros.
+                    </p>
                 </div>
             </div>
             <div class="container__aboutUs__image">
@@ -83,10 +82,10 @@
                     <img src="assets/base.png" alt="">
                 </div>
                 <div class="container__center">
-                    <p>Enterprice gestiona envia y recibe el flujo de la informacion de todas la demas soluciones de
-                        powerstreet
-                        al
-                        instante</p>
+                    <p>
+                        Enterprise gestiona envía y recibe el flujo de la información<br>
+                        de todas la demás soluciones de PowerStreet al instante.
+                    </p>
                 </div>
             </div>
         </div>
@@ -97,8 +96,7 @@
                     <div id="circle">
                         <img src="assets/lista-de-precios.png" alt="">
                     </div>
-
-                    <p>Productos y listas <br> de precios</p>
+                    <p>Productos y listas<br>de precios</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
@@ -112,7 +110,7 @@
                         <img src="assets/jefe.png" alt="">
                     </div>
 
-                    <p>-clientes con multiples <br> sucursales</p>
+                    <p>Clientes con multiples<br>sucursales</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
@@ -136,21 +134,21 @@
                         <img src="assets/ventas.png" alt="">
                     </div>
 
-                    <p>Politicas de ventas por <br> diferentes criterios</p>
+                    <p>Políticas de ventas por <br> diferentes criterios</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
                         <img src="assets/inventario.png" alt="">
                     </div>
 
-                    <p>Politicas de promocion y <br> liquidacion de comisiones</p>
+                    <p>Políticas de promoción y<br>liquidación de comisiones</p>
                 </div>
                 <div class="container__servicios__list">
                     <div id="circle">
                         <img src="assets/lista-de-precios.png" alt="">
                     </div>
 
-                    <p>Motivos de no venta, <br> anulacion o devoluciones</p>
+                    <p>Motivos de no venta, <br> anulación o devoluciones</p>
                 </div>
             </div>
         </div>

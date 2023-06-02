@@ -42,8 +42,12 @@
             </div>
             <hr class="line__I">
             <div class="description">
-                <p>En este curso aprenderas los apartados de series, depositos vendedores y como modificar los
-                    vendedores cada partado viene con demostracion y evaluacion lee con mucha atencion y suerte!</p>
+                <p>
+                    En este curso aprenderás los apartados de series,<br>
+                    depósitos vendedores y como modificar los vendedores.<br>
+                    Cada apartado viene con demostración y evaluación<br>
+                    lee con atención y ¡suerte!
+                </p>
             </div>
             <hr class="line__II">
         </section>
@@ -96,10 +100,10 @@
                 </div>
                 <div class="content__item__VI">
                     <a href="homeModulo3PoliticasdeventaDemostracion.php">
-                    <button class="button">
-                        <h2>2.6 POLITICAS DE VENTA</h2>
-                        <img src="../assets/book.png" style="width: 100px;">
-                    </button>
+                        <button class="button">
+                            <h2>2.6 POLITICAS DE VENTA</h2>
+                            <img src="../assets/book.png" style="width: 100px;">
+                        </button>
                     </a>
                 </div>
             </div>

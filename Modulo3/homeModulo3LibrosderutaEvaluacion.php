@@ -25,7 +25,7 @@
                 <ul style="list-style: none;" class="listHeader">
                     <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
                     <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
-                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/book.png"
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/perfil.png"
                                 alt=""></span>
                     </li>
                 </ul>
@@ -37,21 +37,39 @@
     <div class="main">
         <div class="cantainer__I">
             <div class="contaainer__image">
-                <img src="../assets/opop.png" style="width: 300px;">
+                <img src="../assets/imagenDeTemas.png" style="width: 300px;">
             </div>
             <div class="contaainer__description">
                 <div class="contaainer__description__title">
                     <h1>2.4 LIBROS DE RUTA</h1>
                 </div>
                 <div class="contaainer__description__text">
-                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
-                        imprimir desde un dispositivo movil o pc</p>
+                    <p>
+                        Lograr un buen manejo de la información de clientes, <br>
+                        así como proporcionar diferentes opciones de<br>
+                        asignación de los mismos de la manera que sea más sencilla <br>
+                        y cómoda para el usuario.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>2.4.3 Evaluacion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>
+                            1.-Da clic en botón reproducir para empezar tu capacitación.<br>
+                            2.-Al terminar el video de capacitación, verás el botón<br>
+                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
+                            3.-Has clic en el botón <span>Cursos</span>.
+                        </p>
+                    </div>
+                </div>
+                <h1>2.4.3 Evaluación</h1>
             </div>
             <div class="container__iframe">
                 <center>

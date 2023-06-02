@@ -42,8 +42,12 @@
             </div>
             <hr class="line__I">
             <div class="description">
-                <p>En este curso aprenderas los apartados de series, depositos vendedores y como modificar los
-                    vendedores cada partado viene con demostracion y evaluacion lee con mucha atencion y suerte!</p>
+                <p>
+                    En este curso aprenderás los apartados de series,<br>
+                    depósitos vendedores y como modificar los vendedores.<br>
+                    Cada apartado viene con demostración y evaluación<br>
+                    lee con atención y ¡suerte!
+                </p>
             </div>
             <hr class="line__II">
         </section>

@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +8,12 @@
     <title>Modulo 2 -Modificar Listas de precios</title>
     <link rel="stylesheet" href="../css/temas.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-    
-  
+
+
+
 
 </head>
+
 <body>
     <!-- seccion header -->
     <div class="">
@@ -24,7 +25,7 @@
                 <ul style="list-style: none;" class="listHeader">
                     <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
                     <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
-                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/book.png"
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/perfil.png"
                                 alt=""></span>
                     </li>
                 </ul>
@@ -36,21 +37,39 @@
     <div class="main">
         <div class="cantainer__I">
             <div class="contaainer__image">
-                <img src="../assets/opop.png" style="width: 300px;">
+                <img src="../assets/imagenDeTemas.png" style="width: 300px;">
             </div>
             <div class="contaainer__description">
                 <div class="contaainer__description__title">
                     <h1>2.2 MODIFICAR LISTA DE PRECIOS</h1>
                 </div>
                 <div class="contaainer__description__text">
-                    <p>¿Que son las ser5ies? Es la configuracion donde se indica al sistema que documentos se necesitan
-                        imprimir desde un dispositivo movil o pc</p>
+                    <p>
+                        Proporcionar el conocimiento necesario para modificación <br>
+                        y creación de listas de precios y precios, ya que <br>
+                        es un aspecto que con regularidad está cambiando <br>
+                        y es necesario para el cliente conocer el procedimiento
+                    </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="container__title">
-                <h1>2.2.1 Demostracion</h1>
+                <div class="container__instructios">
+                    <div class="container__instructios__description">
+                        <h3>Instrucciones</h3>
+                    </div>
+                    <div class="container__instructios__text">
+                        <p>
+                            1.-Da clic en botón reproducir para empezar tu capacitación.<br>
+                            2.-Al terminar el video de capacitación, verás el botón<br>
+                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
+                            3.-Has clic en el botón <span>Formación</span>
+                        </p>
+                    </div>
+                </div>
+                <h1>2.2.1 Demostración</h1>
             </div>
             <div class="container__iframe">
                 <center>
@@ -61,7 +80,7 @@
         <div class="container">
             <div class="container__subtitle">
                 <a href="./homeModulo3ModificarlistasdepreciosFormacion.php">
-                    <button>Formacion</button>
+                    <button>Formación</button>
                 </a>
             </div>
         </div>
@@ -76,4 +95,5 @@
         </footer>
     </div>
 </body>
+
 </html>

@@ -25,7 +25,7 @@
                 <ul style="list-style: none;" class="listHeader">
                     <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
                     <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
-                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/book.png"
+                    <li><span onclick="openNav()"><img class="list__header__icon" src="../assets/perfil.png"
                                 alt=""></span>
                     </li>
                 </ul>
@@ -37,7 +37,7 @@
     <div class="main">
         <div class="cantainer__I">
             <div class="contaainer__image">
-                <img src="../assets/opop.png" style="width: 300px;">
+                <img src="../assets/imagenDeTemas.png" style="width: 300px;">
             </div>
             <div class="contaainer__description">
                 <div class="contaainer__description__title">

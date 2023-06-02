@@ -37,20 +37,37 @@ body {
 
 .list__header__icon {
     width: 30px;
+    cursor: pointer;
 }
 
 /* seccion Cuerpo de la pagina */
 
 /* seccion descripccion de la pagina de cursos */
+
+.container__color {
+    background-color: #D0EEFF;
+}
+
 .container__description {
-    background-image: url("../assets/trabajo-en-equipo.jpg");
     width: 100%;
     height: 300px;
     background-size: 100%;
     background-repeat: no-repeat;
-    display: grid;
+}
+
+.container__description img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.container__description__title {
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.container__description__title h1 {
+    font-size: 50px;
 }
 
 /* seccion de la pagina con los diferentes cursos */
@@ -123,18 +140,65 @@ body {
     text-decoration: none;
 }
 
-.item__button h1 {
-    background-image: url(../assets/trabajo-en-equipo.jpg);
+.container__cursos__item__I h1 {
+    background-image: url(../assets/modulo1.jpg);
     width: 501px;
     height: 70vh;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    border-radius: 30% 30% 30% 30%;
     background-position: center;
     font-size: 68px;
 }
+
+.container__cursos__item__II h1 {
+    background-image: url(../assets/1.jpg);
+    width: 501px;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    font-size: 68px;
+}
+
+.container__cursos__item__III h1 {
+    background-image: url(../assets/modulo3.jpg);
+    width: 501px;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    font-size: 68px;
+}
+
+.container__cursos__item__IV h1 {
+    background-image: url(../assets/modulo4.jpg);
+    width: 501px;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    font-size: 68px;
+}
+
+/* .item__button h1 {
+    background-image: url(../assets/modulo1.jpg);
+    width: 501px;
+    height: 70vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    font-size: 68px;
+} */
 
 /* seccion footer */
 footer {

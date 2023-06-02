@@ -32,6 +32,7 @@ body {
 
 .list__header__icon {
     width: 30px;
+    cursor: pointer;
 }
 
 /* seccion contenido de la pagina */
@@ -101,7 +102,7 @@ body {
     margin-bottom: 50px;
 }
 .button{
-    background-color: #5196BF;
+    background: linear-gradient(to right, #85CED8, #94B9FF);
     border: none;
     box-shadow: -19px -13px 5px 0px rgba(189,177,177,0.75);
     cursor: pointer;

@@ -12,6 +12,10 @@ body {
     width: 100%;
 }
 
+.imageContainer {
+    margin-left: 50px;
+}
+
 .imageContainer img {
     width: 100px;
 }
@@ -42,6 +46,18 @@ body {
 .cantainer__I {
     display: flex;
     justify-content: space-between;
+}
+
+.contaainer__image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.contaainer__image img {
+    width: 100%;
+    padding: 30px;
+    height: 357px;
 }
 
 .contaainer__description {
@@ -91,11 +107,11 @@ body {
     display: grid;
     width: 80%;
     margin-right: 20px;
-    background-color: #5196BF;
-    border-radius: 30px;
+    background-color: #D0EEFF;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: black;
 }
 
 .container__instructios h3 {
@@ -120,14 +136,14 @@ body {
 }
 
 .container__title h1 {
-    background-color: #5196BF;
-    border-radius: 30px;
+    background: linear-gradient(to right, #CDFFFB, #94B9FF);
+    border-radius: 20px;
     width: 100%;
     height: 71px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: black;
 }
 
 .container__subtitle button {

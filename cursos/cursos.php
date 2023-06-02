@@ -36,7 +36,8 @@
     <!-- seccion descripccion de la pagina de cursos -->
     <div class="container">
         <div class="container__description">
-            <div class="container__description__title">
+            <img src="../assets/0.png" alt="">
+            <!-- <div class="container__description__title">
                 <h1>Modulos</h1>
             </div>
             <div class="container__description__text">
@@ -44,25 +45,25 @@
             </div>
             <div class="container__description__line">
                 <hr>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- seccion cuerpo de la pagina con los diferentes cursos -->
-    <div class="container">
+    <div class="container__color">
         <div class="container__cursos">
             <div class="container__cursos__list">
                 <div class="container__cursos__item__I">
                     <div class="item__button">
                         <a href="../Modulo2/modulo1.php">
-                            <h1>Modulo 1</h1>
+                            <h1></h1>
                         </a>
                     </div>
                 </div>
                 <div class="container__cursos__item__III">
                     <div class="item__button">
                         <a href="">
-                            <h1>Modulo 3</h1>
+                            <h1></h1>
                         </a>
                     </div>
                 </div>
@@ -73,14 +74,14 @@
                         <div class="container__cursos__item__II">
                             <div class="item__button">
                                 <a href="../Modulo3/modulo2.php">
-                                    <h1>Modulo 2</h1>
+                                    <h1></h1>
                                 </a>
                             </div>
                         </div>
                         <div class="container__cursos__item__IV">
                             <div class="item__button">
                                 <a href="">
-                                    <h1>Modulo 4</h1>
+                                    <h1></h1>
                                 </a>
                             </div>
                         </div>
