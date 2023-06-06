@@ -1,3 +1,5 @@
+<?php require "../../validaciones/conexion.php";?>
+
 <html><body>
     <style>
         .title {
@@ -17,4 +19,10 @@
         <br><br><br><br><br>
         <h1 class="title">Gracias por completar este contenido. Puedes continuar al siguiente modulo.</h1>
     </center>
+    
+    <?php
+        session_start();
+        $id_user = $_SESSION['id'];
+        $sql = mysqli_query($conexion," UPDATE modulo2 SET 	modificarvendedores = JSON_REPLACE(	modificarvendedores, '$.formacion', 1) WHERE id_user = $id_user;");
+    ?>
 </body></html>
