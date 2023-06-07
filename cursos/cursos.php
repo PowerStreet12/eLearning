@@ -14,6 +14,9 @@
     <?php
 
     include('../header/header.php');
+    session_start();
+    $id_user = $_SESSION['id'];
+    require "../validaciones/conexion.php";
 
     ?>
 
@@ -62,7 +65,7 @@
                 </div>
                 <div class="container__cursos__item__III">
                     <div class="item__button">
-                        <a href="">
+                        <a onClick="alert('Este modulo aún no esta disponible')" style="cursor:pointer;">
                             <h1></h1>
                         </a>
                     </div>
@@ -73,14 +76,28 @@
                     <div class="container__cursos__list">
                         <div class="container__cursos__item__II">
                             <div class="item__button">
-                                <a href="../Modulo3/modulo2.php">
-                                    <h1></h1>
-                                </a>
+                                <?php
+                                $sql = mysqli_query($conexion,"SELECT JSON_EXTRACT(modificarvendedores , '$.evaluacion') as status FROM `modulo2` WHERE id_user=$id_user;");
+                                $row = mysqli_fetch_array($sql);
+                                // echo $row['status'];
+                                if($row){
+                                    if($row['status']){
+                                    ?>
+                                    <a href="../Modulo3/modulo2.php">
+                                        <h1></h1>
+                                    </a>
+                                    <?php }
+                                }else{?>
+                                    <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                                        <h1></h1>
+                                    </a>
+                                <?php };
+                                ?>
                             </div>
                         </div>
                         <div class="container__cursos__item__IV">
                             <div class="item__button">
-                                <a href="">
+                                <a onClick="alert('Este modulo aún no esta disponible')" style="cursor:pointer;">
                                     <h1></h1>
                                 </a>
                             </div>
