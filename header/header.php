@@ -16,7 +16,7 @@
             </div>
             <div>
                 <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img style="width: 30px;" class="list__header__icon" src="../assets/home.png"
+                    <li><a href="../home/index.php"><img style="width: 30px;" class="list__header__icon" src="../assets/home.png"
                                 alt=""></a></li>
                     <li><a href=""><img style="width: 30px;" class="list__header__icon" src="../assets/perfil.png"
                                 alt=""></a></li>

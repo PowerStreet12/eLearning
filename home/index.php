@@ -10,7 +10,7 @@
     <title>Bienvenido</title>
 </head>
 
-<body>
+<body id="body">
     <!-- seccion header -->
 
     <div class="">
@@ -20,7 +20,7 @@
             </div>
             <div>
                 <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
+                    <li><a href="./index.php"><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
                     <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
                     <li><span onclick="openNav()"><img class="list__header__icon" src="assets/menu.png" alt=""></span>
                     </li>
@@ -175,6 +175,8 @@
             document.body.style.backgroundColor = "white";
 
         }
+        var intElemScrollTop = document.getElementById("body");
+        intElemScrollTop.scrollTop = 0;
     </script>
     <?php
 
