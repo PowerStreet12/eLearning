@@ -79,7 +79,7 @@
         </div>
         <div class="container">
             <div class="container__subtitle">
-                <a href="./homeModulo2SeriesFormacion.php">
+                <a>
                     <button>Formación</button>
                 </a>
             </div>
@@ -95,5 +95,22 @@
         </footer>
     </div>
 </body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+document.getElementById("demo").onclick = function() {myFunction()};
+
+function myFunction() {
+    console.log("Clic");
+    $.post("../validaciones/existe.php",{"modulo":'series', "apartado":'demostracion', "numero":'modulo2'},
+        function(respuesta){
+	    console.log(respuesta)
+        if(respuesta == 1)
+            window.location.href = "./homeModulo2SeriesFormacion.php";
+        else 
+            alert("Debe finalizar el módulo para avanzar");
+    });
+}
+</script>
 
 </html>
