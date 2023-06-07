@@ -8,6 +8,7 @@
     <title>Modulo 2 - Libros de ruta</title>
     <link rel="stylesheet" href="../css/temas.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="modulo2.js"></script>
 </head>
 
 <body>

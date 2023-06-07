@@ -8,6 +8,7 @@
     <title>Modulo 1 - Series</title>
     <link rel="stylesheet" href="../css/temas.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="modulo1.js"></script>
 </head>
 
 <body>

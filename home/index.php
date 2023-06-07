@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
     <title>Bienvenido</title>
 </head>
 
-<body id="body">
+<body>
     <!-- seccion header -->
 
     <div class="">
@@ -173,16 +174,8 @@
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
-
         }
-        var intElemScrollTop = document.getElementById("body");
-        intElemScrollTop.scrollTop = 0;
     </script>
-    <?php
-
-    //include('../Menu/menuprincipal.php');
-    
-    ?>
 </body>
 
 </html>
