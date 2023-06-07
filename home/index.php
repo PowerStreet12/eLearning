@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
     <title>Bienvenido</title>
 </head>
 
@@ -20,7 +21,7 @@
             </div>
             <div>
                 <ul style="list-style: none;" class="listHeader">
-                    <li><a href=""><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
+                    <li><a href="./index.php"><img class="list__header__icon" src="assets/home.png" alt=""></a></li>
                     <li><a href=""><img class="list__header__icon" src="assets/perfil.png" alt=""></a></li>
                     <li><span onclick="openNav()"><img class="list__header__icon" src="assets/menu.png" alt=""></span>
                     </li>
@@ -173,14 +174,8 @@
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
-
         }
     </script>
-    <?php
-
-    //include('../Menu/menuprincipal.php');
-    
-    ?>
 </body>
 
 </html>
