@@ -34,12 +34,13 @@
         <section>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">MENU</a>
-                <a href="#">POWER STREET</a>
-                <a href="#">AREAS</a>
-                <a href="#">TESTING</a>
-                <a href="#">APLICACIONES POWER STREET</a>
-                <a href="../cursos/cursos.php">CAPACITACION</a>
+                <a href="#">Menu</a>
+                <a href="#">Power Street</a>
+                <a href="#">Areas</a>
+                <a href="#">Testing</a>
+                <a href="#">Aplicaciones Power Street</a>
+                <a href="../cursos/cursos.php">Capacitación</a>
+                <a href="#">Cerrar sesión</a>
             </div>
 
             <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
