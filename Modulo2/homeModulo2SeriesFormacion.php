@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,9 +62,9 @@
                         <p>
                             1.-Da clic en botón reproducir para empezar tu capacitación.<br>
                             2.-Al terminar el video de capacitación, verás el botón<br>
-                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, por favor haz clic en el botón<br>
                             <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
-                            3.-Has clic en el botón <span>Evaluación</span>.
+                            3.-Haz clic en el botón <span>Evaluación</span>.
                         </p>
                     </div>
                 </div>
@@ -77,9 +78,7 @@
         </div>
         <div class="container">
             <div class="container__subtitle">
-                <a href="./homeModulo2SeriesEvaluacion.php">
-                    <button>Evaluación</button>
-                </a>
+                <button id="demo">Evaluación</button>
             </div>
         </div>
     </div>
@@ -99,5 +98,22 @@
         <iframe src="SeriesFormacion/index.html" width=1090 height=660></iframe>
     </center> -->
 </body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+document.getElementById("demo").onclick = function() {myFunction()};
+
+function myFunction() {
+    console.log("Clic");
+    $.post("../validaciones/existe.php",{"modulo":'series', "apartado":'formacion', "numero":'modulo2'},
+        function(respuesta){
+	    console.log(respuesta)
+        if(respuesta == 1)
+            window.location.href = "./homeModulo2SeriesEvaluacion.php";
+        else 
+            alert("Debe finalizar el módulo para avanzar");
+    });
+}
+</script>
 
 </html>

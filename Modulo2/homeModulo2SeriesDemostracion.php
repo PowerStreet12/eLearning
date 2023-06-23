@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,9 +62,9 @@
                         <p>
                             1.-Da clic en botón reproducir para empezar tu capacitación.<br>
                             2.-Al terminar el video de capacitación, verás el botón<br>
-                            <span>Terminar Módulo</span>, por favor has clic en el botón<br>
+                            <span>Terminar Módulo</span>, por favor haz clic en el botón<br>
                             <span>Terminar Módulo</span>, para dar como finalizado el módulo.<br>
-                            3.-Has clic en el botón <span>Formación</span>
+                            3.-Haz clic en el botón <span>Formación</span>
                         </p>
                     </div>
                 </div>
@@ -79,9 +80,7 @@
         </div>
         <div class="container">
             <div class="container__subtitle">
-                <a>
-                    <button id="demo">Formación</button>
-                </a>
+                <button id="demo">Formación</button>
             </div>
         </div>
     </div>

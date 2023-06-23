@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,13 +35,13 @@
         <section>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Menu</a>
+                <a href="#">Menú</a>
                 <a href="#">Power Street</a>
-                <a href="#">Areas</a>
+                <a href="#">Áreas</a>
                 <a href="#">Testing</a>
                 <a href="#">Aplicaciones Power Street</a>
                 <a href="../cursos/cursos.php">Capacitación</a>
-                <a href="#">Cerrar sesión</a>
+                <a href="../validaciones/cerrar-sesion.php">Cerrar sesión</a>
             </div>
 
             <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -57,7 +58,7 @@
                         Somos una empresa especializada en el desarrollo<br>
                         de soluciones integrales para la automatización<br>
                         de procesos comerciales para canales al detalle,<br>
-                        mayoristas autoservicios entre otros.
+                        mayoristas, autoservicios entre otros.
                     </p>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                 </div>
                 <div class="container__center">
                     <p>
-                        Enterprise gestiona envía y recibe el flujo de la información<br>
+                        Enterprise gestiona, envía y recibe el flujo de la información<br>
                         de todas la demás soluciones de PowerStreet al instante.
                     </p>
                 </div>

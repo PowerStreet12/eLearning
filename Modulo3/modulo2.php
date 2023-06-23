@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,18 +16,35 @@
 
     <?php
     include("../header/header.php");
+    require "../validaciones/conexion.php";
+    $id_user = $_SESSION['id'];
+    $sql = mysqli_query($conexion,"SELECT JSON_EXTRACT(listasdeprecios , '$.evaluacion') as modificarlistasdeprecios,
+                        JSON_EXTRACT(modificarlistasdeprecios, '$.evaluacion') as manejodecreditos,
+                        JSON_EXTRACT(manejodecreditos, '$.evaluacion') as librosderuta,
+                        JSON_EXTRACT(librosderuta, '$.evaluacion') as manejodeinventarios,
+                        JSON_EXTRACT(manejodeinventarios, '$.evaluacion') as politicasdeventa
+                        FROM `modulo3` WHERE id_user=$id_user;");
+    $data = mysqli_fetch_array($sql);
+    if($data == null){
+        $data = array("modificarlistasdeprecios"=>0, "manejodecreditos"=>0, "librosderuta"=>0, "manejodeinventarios"=>0, "politicasdeventa"=>0);
+    }
+    $sql2 = mysqli_query($conexion,"SELECT JSON_EXTRACT(modificarvendedores , '$.evaluacion') as listasdeprecios FROM `modulo2` WHERE id_user=$id_user;");
+    $data2 = mysqli_fetch_array($sql);
+    if($data2 == null)
+        $data2 = array("listasdeprecios"=>0);
     ?>
 
     <!-- seccion menu sidenav -->
     <section>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">MENU</a>
-            <a href="../home/index.php">POWER STREET</a>
-            <a href="#">AREAS</a>
-            <a href="#">TESTING</a>
-            <a href="#">APLICACIONES POWER STREET</a>
-            <a href="../cursos/cursos.php">CAPACITACION</a>
+            <a href="#">Menú</a>
+            <a href="../home/index.php">Inicio</a>
+            <a href="#">Áreas</a>
+            <a href="#">Testing</a>
+            <a href="#">Aplicaciones Power Street</a>
+            <a href="../cursos/cursos.php">Capacitación</a>
+            <a href="../validaciones/cerrar-sesion.php">Cerrar sesión</a>
         </div>
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -56,7 +74,11 @@
         <section class="content">
             <div class="content__grid">
                 <div class="content__item__I">
-                    <a href="homeModulo3ListasdepreciosDemostracion.php">
+                    <?php if($data2['listasdeprecios']){ ?>
+                        <a href="./homeModulo3ListasdepreciosDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.1 LISTAS DE PRECIOS</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -64,7 +86,11 @@
                     </a>
                 </div>
                 <div class="content__item__II">
-                    <a href="homeModulo3ManejodecreditosDemostracion.php">
+                    <?php if($data['manejodecreditos']){ ?>
+                        <a href="./homeModulo3ManejodecreditosDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.3 MANEJO DE CREDITOS</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -72,7 +98,11 @@
                     </a>
                 </div>
                 <div class="content__item__V">
-                    <a href="homeModulo3InventariosReportedeStockDemostracion.php">
+                    <?php if($data['manejodeinventarios']){ ?>
+                        <a href="./homeModulo3InventariosReportedeStockDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.5 MANEJO DE INVENTARIOS</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -83,7 +113,11 @@
             </div>
             <div class="content__grid">
                 <div class="content__item__III">
-                    <a href="homeModulo3ModificarlistasdepreciosDemostracion.php">
+                    <?php if($data['modificarlistasdeprecios']){ ?>
+                        <a href="./homeModulo3ModificarlistasdepreciosDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.2 MODIFICAR LISTA DE PRECIOS</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -91,7 +125,11 @@
                     </a>
                 </div>
                 <div class="content__item__IV">
-                    <a href="homeModulo3LibrosderutaDemostracion.php">
+                    <?php if($data['librosderuta']){ ?>
+                        <a href="./homeModulo3LibrosderutaDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.4 LIBROS DE RUTA</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -99,7 +137,11 @@
                     </a>
                 </div>
                 <div class="content__item__VI">
-                    <a href="homeModulo3PoliticasdeventaDemostracion.php">
+                    <?php if($data['politicasdeventa']){ ?>
+                        <a href="./homeModulo3PoliticasdeventaDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>2.6 POLITICAS DE VENTA</h2>
                             <img src="../assets/book.png" style="width: 100px;">

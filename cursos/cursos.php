@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -24,12 +25,13 @@
     <section>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">MENU</a>
-            <a href="../home/index.php">POWER STREET</a>
-            <a href="#">AREAS</a>
-            <a href="#">TESTING</a>
-            <a href="#">APLICACIONES POWER STREET</a>
-            <a href="../cursos/cursos.php">CAPACITACION</a>
+            <a href="#">Menú</a>
+            <a href="../home/index.php">Inicio</a>
+            <a href="#">Áreas</a>
+            <a href="#">Testing</a>
+            <a href="#">Aplicaciones Power Street</a>
+            <a href="../cursos/cursos.php">Capacitación</a>
+            <a href="../validaciones/cerrar-sesion.php">Cerrar sesión</a>
         </div>
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -86,7 +88,12 @@
                                     <a href="../Modulo3/modulo2.php">
                                         <h1></h1>
                                     </a>
-                                    <?php }
+                                    <?php }else {?>
+                                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                                            <h1></h1>
+                                        </a>
+                                    <?php
+                                    }
                                 }else{?>
                                     <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
                                         <h1></h1>

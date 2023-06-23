@@ -1,4 +1,4 @@
-
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,4 @@
+<?php include('../validaciones/sesion.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,18 +18,29 @@
 
     <?php
     include("../header/header.php");
+    require "../validaciones/conexion.php";
+    $id_user = $_SESSION['id'];
+    $sql = mysqli_query($conexion,"SELECT JSON_EXTRACT(series , '$.evaluacion') as depositos,
+                        JSON_EXTRACT(depositos , '$.evaluacion') as vendedores,
+                        JSON_EXTRACT(vendedores , '$.evaluacion') as modificarvendedores
+                        FROM `modulo2` WHERE id_user=$id_user;");
+    $data = mysqli_fetch_array($sql);
+    if($data == null){
+        $data = array("depositos"=>0, "vendedores"=>0, "modificarvendedores"=>0);
+    }
     ?>
 
     <!-- seccion menu sidenav -->
     <section>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">MENU</a>
-            <a href="../home/index.php">POWER STREET</a>
-            <a href="#">AREAS</a>
-            <a href="#">TESTING</a>
-            <a href="#">APLICACIONES POWER STREET</a>
-            <a href="../cursos/cursos.php">CAPACITACION</a>
+            <a href="#">Menú</a>
+            <a href="../home/index.php">Inicio</a>
+            <a href="#">Áreas</a>
+            <a href="#">Testing</a>
+            <a href="#">Aplicaciones Power Street</a>
+            <a href="../cursos/cursos.php">Capacitación</a>
+            <a href="../validaciones/cerrar-sesion.php">Cerrar sesión</a>
         </div>
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -67,17 +79,26 @@
 
                 </div>
                 <div class="content__item__II">
-                    <a href="./homeModulo2VendedoresDemostracion.php">
-                        <button class="button">
-                            <h2>1.3 VENDEDORES</h2>
-                            <img src="../assets/book.png" style="width: 100px;">
-                        </button>
-                    </a>
+                    <?php if($data['vendedores']){ ?>
+                        <a href="./homeModulo2VendedoresDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
+                    <button class="button">
+                        <h2>1.3 VENDEDORES</h2>
+                        <img src="../assets/book.png" style="width: 100px;">
+                    </button>
+                </a>
+                    
                 </div>
             </div>
             <div class="content__grid">
                 <div class="content__item__III">
-                    <a href="./homeModulo2DepositosDemostracion.php">
+                    <?php if($data['vendedores']){ ?>
+                        <a href="./homeModulo2DepositosDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>1.2 DEPOSITOS</h2>
                             <img src="../assets/book.png" style="width: 100px;">
@@ -85,7 +106,11 @@
                     </a>
                 </div>
                 <div class="content__item__IV">
-                    <a href="./homeModulo2ModificarVendedoresDemostracion.php">
+                    <?php if($data['vendedores']){ ?>
+                        <a href="./homeModulo2ModificarVendedoresDemostracion.php">
+                    <?php }else {?>
+                        <a onClick="alert('Debe terminar el módulo anterior para poder acceder a este')" style="cursor:pointer;">
+                    <?php } ?>
                         <button class="button">
                             <h2>1.4 MODIFICAR VENDEDORES</h2>
                             <img src="../assets/book.png" style="width: 100px;">
